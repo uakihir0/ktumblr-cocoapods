@@ -1,0 +1,8 @@
+framework module "ktumblr" {
+    umbrella header "ktumblr.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
